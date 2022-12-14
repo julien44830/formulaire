@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire javascript</title>
+    <link rel="shortcut icon" href="stylo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="title">formulaire JavaScript</h1>
+
+  <form action="" id="form">
+    <div class="champ">
+      <div class="message">
+
+        <div class="champ2">
+          <input type="text" required name="input" id="firstName" value="" placeholder="prénom" />
+          <p id="Pfirstname"></p>
+          <input type="text" name="input" id="lastName" value="" placeholder="nom" />
+          <input type="email" name="input" id="mail" placeholder="votre email@exmple.com">
+        </div>
+
+        <textarea class="area" name="lastName" id="text" cols="30" rows="10" placeholder="ici votre message"></textarea>
+          
+      </div>
+        
+      <span class="age">
+        <input type="text" name="major" id="age" placeholder="entrer votre age" value="">
+        <p id="ageP"></p>
+      </span>
+      <br>
+      <span class="mdp">
+        <input type="password" name="password" id="mdp" placeholder="entrer votre mot de passe" value="" class="mpd">
+        <p id="mdpP"></p>
+      </span>
+      <span class="mdp">
+        <input type="password" name="password" id="mdp2" placeholder="valider votre mot de passe" value="" class="mpd">
+        <br/>
+        <p id="mdpP2"></p>
+      </span>
+
+
+      <div class="case">
+        <label for="check"><input type="checkbox" name="check" id="checkbox">
+          <p id="condition" class='utilisation'>
+            * Merci d'accepter les conditions d'utilisation.
+          </p> 
+        
+        <div >
+          <div class="radio">
+            <input type="radio" name="radio" id="accept1" value="vous receverez nos offres" >Recevoir les offres promotionnelles.
+          </div>
+          <div class="radio">
+            <input type="radio" name="radio" id="noAccept1" value="vous ne receverez pas nos offres. Mais nous ne receverons pas d'agent du à la revente de vos données utilisateur."checked>Ne pas recevoir les offres promotionnelles.
+          </div>
+        </div>
+
+        <div>
+          <div class="radio">
+            <input type="radio" name="radio_2" id="accept2" value="vous serrez contacté par nos équipes">
+            <label>Etre contacté par nos équipes.</label> 
+          </div>
+          
+          <div class="radio">
+            <input type="radio" name="radio_2" id="noAccept2" value="vous ne serrez pas contacté par nos équipes"checked>
+            <p>Ne pas être contacté par nos équipes.</p> 
+          </div>
+        </div>
+
+
+        <div >
+          <label for="type">êtes-vous :</label>
+          <select name="" id="genre">
+            <option value="une femme">une femme</option>
+            <option value="un homme">un homme</option>
+            <option value="non binair" selected>non binair</option>
+          </select>
+          <p id="select">vous êtes non binair</p>
+        </div>
+
+      </div>
+
+      
+    </div>
+  </form>
+    <div class="btn">
+      <button type="" name="firstName" id="btn">valide</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

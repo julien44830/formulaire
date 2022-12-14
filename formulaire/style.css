@@ -1,0 +1,99 @@
+html {
+  padding: 150px;
+  padding-top: 0px;
+  background-color: lightgrey;
+  margin: 5px;
+}
+
+body{
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+  background-color: lightblue;
+  padding-top: 40px;
+  margin-top: 0px;
+  height: 100vw;
+  -webkit-box-shadow: 10px 12px 15px 11px rgba(0,0,0,0.77); 
+  box-shadow: 10px 12px 15px 11px rgba(0,0,0,0.77);
+}
+
+.green{
+  background-color: aquamarine;
+}
+
+h1{
+  text-align: center;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.message{
+  display: flex;
+  justify-content: center;
+}
+
+.champ{
+  text-align: center;
+}
+
+.age{
+  padding-top: 20px;
+}
+
+.mpd:invalid{
+border-color: red;
+}
+
+form input {
+  color: black;
+}
+
+.champ2{
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+input{
+  margin: 5px;
+}
+
+div, textarea{
+  margin-top: 40px;
+
+}
+
+.area{
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.case{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio{
+  margin: 0px;
+}
+
+.utilisation{
+ color: red;
+ background-color: lightblue;
+ border-color: red;
+}
+
+p{
+  display: inline;
+}
+
+.btn{
+  text-align: center;
+}
